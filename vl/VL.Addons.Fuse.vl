@@ -2,7 +2,59 @@
 <Document xmlns:p="property" xmlns:r="reflection" Id="MWrMmHPCyEAL8GI4zxMKzG" LanguageVersion="2023.5.0" Version="0.128">
   <NugetDependency Id="RzcyRncbfCJPF7UEUiq7l3" Location="VL.CoreLib" Version="2023.5.0" />
   <Patch Id="DD9AFpPMwPwQIrmOPM7vvV">
-    <Canvas Id="PZRxhCuooW1OSHgaqqPINs" DefaultCategory="Fuse" CanvasType="FullCategory" />
+    <Canvas Id="PZRxhCuooW1OSHgaqqPINs" DefaultCategory="Fuse" CanvasType="FullCategory">
+      <Canvas Id="IMSK5vS2SZaPl8OPau0xdS" Name="Common" Position="98,127">
+        <Canvas Id="JVZI0fVDmu7Ll7wA1EL8MY" Name="TextureFX" Position="97,128">
+          <!--
+
+    ************************ BlendMode ************************
+
+-->
+          <Node Name="BlendMode" Bounds="111,128" Id="O4fjZhfoLkNMMeQOTDv7Dk">
+            <p:NodeReference>
+              <Choice Kind="ForwardRecordDefinition" Name="Immutable Forward" />
+              <CategoryReference Kind="Category" Name="Primitive" />
+            </p:NodeReference>
+            <p:TypeAnnotation LastCategoryFullName="Fuse.Common.TextureFX" LastDependency="TextureFX.dll">
+              <Choice Kind="TypeFlag" Name="BlendMode" />
+            </p:TypeAnnotation>
+            <Patch Id="LSxfmGod636Om5iVNuuBAl">
+              <Canvas Id="SdqzqlzSdYEOzosmgOyUXZ" CanvasType="Group">
+                <!--
+
+    ************************ CreateDefault ************************
+
+-->
+                <Node Name="CreateDefault" Bounds="119,128,168,103" Id="CTOiDDIAqDDPWyycMTf9ij">
+                  <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
+                    <Choice Kind="OperationDefinition" Name="Operation" />
+                  </p:NodeReference>
+                  <Patch Id="UwlWvImQaubOMy0jLXWXEv">
+                    <ControlPoint Id="NaQ21W5x6LmPrk1tMXsld4" Bounds="135,214" />
+                    <Link Id="VVzTR3so91cOrz3Af9jz0o" Ids="NaQ21W5x6LmPrk1tMXsld4,AiQY6gcpANnMgVMYWuU6wY" IsHidden="true" />
+                    <Pin Id="AiQY6gcpANnMgVMYWuU6wY" Name="Output" Kind="OutputPin">
+                      <p:TypeAnnotation LastCategoryFullName="Fuse.Common.TextureFX" LastDependency="VL.Addons.Fuse.vl">
+                        <Choice Kind="TypeFlag" Name="BlendMode" />
+                        <FullNameCategoryReference ID="Fuse.Common.TextureFX" />
+                      </p:TypeAnnotation>
+                    </Pin>
+                    <Pad Id="A7Sy2s4Eu6pPxOlFEMnmiq" Comment="" Bounds="135,156,121,15" ShowValueBox="true" isIOBox="true" Value="Normal">
+                      <p:TypeAnnotation LastCategoryFullName="Fuse.Common.TextureFX" LastDependency="VL.Addons.Fuse.vl">
+                        <Choice Kind="TypeFlag" Name="BlendMode" />
+                      </p:TypeAnnotation>
+                    </Pad>
+                    <Link Id="IDonSBEdgjdNpeSQbJOT0j" Ids="A7Sy2s4Eu6pPxOlFEMnmiq,NaQ21W5x6LmPrk1tMXsld4" />
+                  </Patch>
+                </Node>
+              </Canvas>
+              <ProcessDefinition Id="Hbog3GqrCtRQOBRIg6Jkfg" IsHidden="true">
+                <Fragment Id="OMXyIrEyLwsOMO4N8Kx3KE" Patch="CTOiDDIAqDDPWyycMTf9ij" Enabled="true" />
+              </ProcessDefinition>
+            </Patch>
+          </Node>
+        </Canvas>
+      </Canvas>
+    </Canvas>
     <!--
 
     ************************ Application ************************
@@ -25,4 +77,5 @@
     </Node>
   </Patch>
   <NugetDependency Id="LrP8KWITVVvMoQyZnNIXsp" Location="VL.Fuse" Version="1.0.0-alpha04" />
+  <PlatformDependency Id="F2TahN5dbbQPt7hjkR5NI1" Location="../lib/net6.0/TextureFX.dll" />
 </Document>

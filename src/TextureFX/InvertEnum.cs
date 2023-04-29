@@ -12,27 +12,29 @@ namespace Fuse.Common.TextureFX
         Red = 1,
         [Description("Green")]
         Green = 2,
+        [Description("Blue")]
+        Blue = 3,
         [Description("RedGreen")]
-        RedGreen = 3,
+        RedGreen = 4,
         [Description("RedBlue")]
-        RedBlue = 4,
+        RedBlue = 5,
         [Description("GreenBlue")]
-        GreenBlue = 5,
+        GreenBlue = 6,
         [Description("Value")]
-        Value = 6,
+        Value = 7,
         [Description("Lightness")]
-        Lightness = 7,
+        Lightness = 8,
         [Description("Saturation")]
-        Saturation = 8,
+        Saturation = 9,
         [Description("Hue")]
-        Hue = 9,
+        Hue = 10,
         [Description("Cyan")]
-        Cyan = 10,
+        Cyan = 11,
         [Description("Magenta")]
-        Magenta = 11,
+        Magenta = 12,
         [Description("Yellow")]
-        Yellow = 12,
+        Yellow = 13,
         [Description("Black")]
-        Black = 13,
+        Black = 14,
     }
 }

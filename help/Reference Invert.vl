@@ -30,7 +30,7 @@
             <Pin Id="VH1XQYngnPWLxIUrYveCvy" Name="Is Loading" Kind="OutputPin" />
             <Pin Id="QyhKJBt8AmEPjNuIR6o41H" Name="Already Loaded" Kind="OutputPin" />
           </Node>
-          <Node Bounds="283,421,225,19" Id="DCjSlGj9b2CLNAQidI4SA1">
+          <Node Bounds="283,583,225,19" Id="DCjSlGj9b2CLNAQidI4SA1">
             <p:NodeReference LastCategoryFullName="Stride.Textures" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="TextureWindow" />
@@ -60,7 +60,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="322,338,65,19" Id="P4HAmcpKE5jQY8Wxps6z7o">
+          <Node Bounds="323,401,65,19" Id="P4HAmcpKE5jQY8Wxps6z7o">
             <p:NodeReference LastCategoryFullName="Fuse.Common.TextureFX.ColorManipulation" LastDependency="VL.Addons.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="ColorManipulation" NeedsToBeDirectParent="true" />
@@ -72,6 +72,47 @@
             <Pin Id="HpxIowPMjZjMcdvBpv8YBK" Name="Invert Alpha" Kind="InputPin" />
             <Pin Id="JLdCUyK17KyOrRanJort7d" Name="Output" Kind="OutputPin" />
           </Node>
+          <Node Bounds="664,446,75,19" Id="RzNVgCjMa06LbkTojig2Ma">
+            <p:NodeReference LastCategoryFullName="Fuse.Common.TextureFX" LastDependency="VL.Addons.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="FromTexture" />
+            </p:NodeReference>
+            <Pin Id="SoaA7XPVtmzLc6sG1YpHSG" Name="Input" Kind="InputPin" />
+            <Pin Id="BO2LYgHqEOvO5Vggf2dQ1E" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="666,586,63,19" Id="TlqmtxqahHjOEtRtFMlRY5">
+            <p:NodeReference LastCategoryFullName="Fuse.Common.TextureFX" LastDependency="VL.Addons.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="ToTexture" />
+            </p:NodeReference>
+            <Pin Id="ItS1sEty92HQH4Fv6dl2Gm" Name="Input" Kind="InputPin" />
+            <Pin Id="JiqPK16EFFlNeuyPiz2TPN" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="420,479,105,19" Id="FVIaNj8CnddLsvRQmWidPH">
+            <p:NodeReference LastCategoryFullName="Fuse.Common.TextureFX.ColorManipulation" LastDependency="VL.Addons.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="ColorMatrix" />
+            </p:NodeReference>
+            <Pin Id="LeUnvgdk8BqQJOwYXegs23" Name="Input" Kind="InputPin" />
+            <Pin Id="NeiHOPTw0fjODBFEiXEAJv" Name="Enable" Kind="InputPin" />
+            <Pin Id="URkc4431a6PMY6sACbWuV4" Name="Color" Kind="InputPin" />
+            <Pin Id="IkhwjiJLtL5LVdR6949ke4" Name="Red" Kind="InputPin" />
+            <Pin Id="PAYG6AZDLI2MoCAM0HkWNI" Name="Green" Kind="InputPin" />
+            <Pin Id="OljJktL2VAaM7WgQz069IJ" Name="Blue" Kind="InputPin" />
+            <Pin Id="V5TEwBMQEhUOYEE5ZKZ7b9" Name="Output" Kind="OutputPin" />
+          </Node>
+          <ControlPoint Id="NAoMD88jnX4Pm6n4Vn4Nvk" Bounds="666,518" />
+          <Node Bounds="666,518,60,26" Id="HdUndP9jfh0OC3dtB4QkPW">
+            <p:NodeReference LastCategoryFullName="Fuse.Common.TextureFX.TFXObject" LastDependency="VL.Addons.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="ClassType" Name="TFXObject" NeedsToBeDirectParent="true" />
+              <Choice Kind="OperationCallFlag" Name="SetObject" />
+            </p:NodeReference>
+            <Pin Id="IYY3aXAV9YNO0J5QHp2OKD" Name="Input" Kind="StateInputPin" />
+            <Pin Id="CDwstC9L4MLO9aOjBuMq48" Name="Object" Kind="InputPin" />
+            <Pin Id="PS5JWdfjoKKOyaVIR71mfr" Name="Output" Kind="StateOutputPin" />
+          </Node>
+          <Pad Id="EehMFngMeLlNiOQc0AG4mQ" Comment="" Bounds="668,689,190,132" ShowValueBox="true" isIOBox="true" />
         </Canvas>
         <Patch Id="GilLuWgpPAUQaFSH8hQKm1" Name="Create" />
         <Patch Id="UNqIDLC7B4KM3B0WtLzc88" Name="Update" />
@@ -81,6 +122,12 @@
         </ProcessDefinition>
         <Link Id="LT9UnOqJfi7LVo4ZxzM3Q2" Ids="KJXD7WwNl4ONTo9MRjrfqo,QwEsHPVDKIaP75RsFiDWdo" />
         <Link Id="IqW4oKUVNTpL5JWtsFKCU3" Ids="JLdCUyK17KyOrRanJort7d,D221lL67eblOchesoE5TMA" />
+        <Link Id="REt9Yzt0sqZL6UKDNYqHPD" Ids="KJXD7WwNl4ONTo9MRjrfqo,SoaA7XPVtmzLc6sG1YpHSG" />
+        <Link Id="IYBcOR883RULYysb7bSyvS" Ids="JLdCUyK17KyOrRanJort7d,LeUnvgdk8BqQJOwYXegs23" />
+        <Link Id="KFnXfu9kafmNTcU3eGXhDZ" Ids="BO2LYgHqEOvO5Vggf2dQ1E,NAoMD88jnX4Pm6n4Vn4Nvk,IYY3aXAV9YNO0J5QHp2OKD" />
+        <Link Id="OqCj31VUNoVPGzy8bmgvjd" Ids="V5TEwBMQEhUOYEE5ZKZ7b9,CDwstC9L4MLO9aOjBuMq48" />
+        <Link Id="Ug2LvKjDPQZMOAfTy72K4e" Ids="PS5JWdfjoKKOyaVIR71mfr,ItS1sEty92HQH4Fv6dl2Gm" />
+        <Link Id="UqlwRjIIQQAPtMtKnCwwGM" Ids="JiqPK16EFFlNeuyPiz2TPN,EehMFngMeLlNiOQc0AG4mQ" />
       </Patch>
     </Node>
   </Patch>

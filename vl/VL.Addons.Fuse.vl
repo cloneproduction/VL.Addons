@@ -485,7 +485,7 @@
     ************************ Grayscale ************************
 
 -->
-            <Node Name="Grayscale" Bounds="324,411" Id="P7kaW4yr9ALM0pbslh35y1">
+            <Node Name="Grayscale" Bounds="115,367" Id="P7kaW4yr9ALM0pbslh35y1">
               <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                 <Choice Kind="ContainerDefinition" Name="Process" />
               </p:NodeReference>
@@ -700,7 +700,7 @@
     ************************ InvertRGB ************************
 
 -->
-            <Node Name="InvertRGB" Bounds="324,372" Id="U3xrObSmlhhL6aNnHzQlFP">
+            <Node Name="InvertRGB" Bounds="115,328" Id="U3xrObSmlhhL6aNnHzQlFP">
               <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                 <Choice Kind="ContainerDefinition" Name="Process" />
               </p:NodeReference>
@@ -780,7 +780,7 @@
     ************************ Invert ************************
 
 -->
-            <Node Name="Invert" Bounds="509,288" Id="VqIWRIfueUxQUwhFtaKnsv">
+            <Node Name="Invert" Bounds="115,165" Id="VqIWRIfueUxQUwhFtaKnsv">
               <p:NodeReference>
                 <Choice Kind="ClassDefinition" Name="Class" />
                 <CategoryReference Kind="Category" Name="Primitive" />
@@ -853,7 +853,7 @@
     ************************ RGB (Internal) ************************
 
 -->
-                  <Node Name="RGB (Internal)" Bounds="-305,-113" Id="OO2csQzixWWNVUhVrlNXGM">
+                  <Node Name="RGB (Internal)" Bounds="-295,38" Id="OO2csQzixWWNVUhVrlNXGM">
                     <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                       <Choice Kind="ClassDefinition" Name="Class" />
                     </p:NodeReference>
@@ -938,7 +938,7 @@
     ************************ Red (Internal) ************************
 
 -->
-                  <Node Name="Red (Internal)" Bounds="-305,-36" Id="FldAxHqI18uNo0gtDZaQjS">
+                  <Node Name="Red (Internal)" Bounds="-295,115" Id="FldAxHqI18uNo0gtDZaQjS">
                     <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                       <Choice Kind="ClassDefinition" Name="Class" />
                     </p:NodeReference>
@@ -1047,7 +1047,7 @@
     ************************ Green (Internal) ************************
 
 -->
-                  <Node Name="Green (Internal)" Bounds="-305,41" Id="A5GPwXIQiltLbtl4KVujB8">
+                  <Node Name="Green (Internal)" Bounds="-295,192" Id="A5GPwXIQiltLbtl4KVujB8">
                     <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                       <Choice Kind="ClassDefinition" Name="Class" />
                     </p:NodeReference>
@@ -1137,7 +1137,7 @@
     ************************ Blue (Internal) ************************
 
 -->
-                  <Node Name="Blue (Internal)" Bounds="-305,118" Id="Rb5Km62kmhyLtNLcXne4y6">
+                  <Node Name="Blue (Internal)" Bounds="-295,269" Id="Rb5Km62kmhyLtNLcXne4y6">
                     <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                       <Choice Kind="ClassDefinition" Name="Class" />
                     </p:NodeReference>
@@ -1228,7 +1228,7 @@
     ************************ RedGreen (Internal) ************************
 
 -->
-                  <Node Name="RedGreen (Internal)" Bounds="-305,195" Id="UNsX7WxopFbLqSMdo8W2hh">
+                  <Node Name="RedGreen (Internal)" Bounds="-295,346" Id="UNsX7WxopFbLqSMdo8W2hh">
                     <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                       <Choice Kind="ClassDefinition" Name="Class" />
                     </p:NodeReference>
@@ -1319,7 +1319,7 @@
     ************************ RedBlue (Internal) ************************
 
 -->
-                  <Node Name="RedBlue (Internal)" Bounds="-305,272" Id="ILGfwK94d30MqX7EqWsp8r">
+                  <Node Name="RedBlue (Internal)" Bounds="-295,423" Id="ILGfwK94d30MqX7EqWsp8r">
                     <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                       <Choice Kind="ClassDefinition" Name="Class" />
                     </p:NodeReference>
@@ -1410,7 +1410,7 @@
     ************************ GreenBlue (Internal) ************************
 
 -->
-                  <Node Name="GreenBlue (Internal)" Bounds="-305,349" Id="LQKCgAgOwtOP7BT3kiwyRC">
+                  <Node Name="GreenBlue (Internal)" Bounds="-295,500" Id="LQKCgAgOwtOP7BT3kiwyRC">
                     <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                       <Choice Kind="ClassDefinition" Name="Class" />
                     </p:NodeReference>
@@ -1501,7 +1501,7 @@
     ************************ Val (Internal) ************************
 
 -->
-                  <Node Name="Val (Internal)" Bounds="-305,426" Id="EbJ47jox3ZEPI0mEgByIyO">
+                  <Node Name="Val (Internal)" Bounds="-295,577" Id="EbJ47jox3ZEPI0mEgByIyO">
                     <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                       <Choice Kind="ClassDefinition" Name="Class" />
                     </p:NodeReference>
@@ -1611,7 +1611,7 @@
     ************************ Lightness (Internal) ************************
 
 -->
-                  <Node Name="Lightness (Internal)" Bounds="-305,503" Id="TIEGKXvE95bNaO1sJxvLRL">
+                  <Node Name="Lightness (Internal)" Bounds="-295,654" Id="TIEGKXvE95bNaO1sJxvLRL">
                     <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                       <Choice Kind="ClassDefinition" Name="Class" />
                     </p:NodeReference>
@@ -1720,7 +1720,7 @@
     ************************ Saturation (Internal) ************************
 
 -->
-                  <Node Name="Saturation (Internal)" Bounds="-305,580" Id="P0MF1Y9NzeKOZzvaZ4hBpO">
+                  <Node Name="Saturation (Internal)" Bounds="-295,731" Id="P0MF1Y9NzeKOZzvaZ4hBpO">
                     <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                       <Choice Kind="ClassDefinition" Name="Class" />
                     </p:NodeReference>
@@ -1828,7 +1828,7 @@
     ************************ Hue (Internal) ************************
 
 -->
-                  <Node Name="Hue (Internal)" Bounds="-305,657" Id="S4bz91zt4KMPCO4jpg3pMh">
+                  <Node Name="Hue (Internal)" Bounds="-295,808" Id="S4bz91zt4KMPCO4jpg3pMh">
                     <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                       <Choice Kind="ClassDefinition" Name="Class" />
                     </p:NodeReference>
@@ -1938,7 +1938,7 @@
     ************************ Cyan (Internal) ************************
 
 -->
-                  <Node Name="Cyan (Internal)" Bounds="-305,734" Id="NwcpwicEOAzLsxY50S9S0d">
+                  <Node Name="Cyan (Internal)" Bounds="-295,885" Id="NwcpwicEOAzLsxY50S9S0d">
                     <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                       <Choice Kind="ClassDefinition" Name="Class" />
                     </p:NodeReference>
@@ -2045,7 +2045,7 @@
     ************************ Magenta (Internal) ************************
 
 -->
-                  <Node Name="Magenta (Internal)" Bounds="-305,811" Id="RbtAGs55sT8O3RYDPZUqsA">
+                  <Node Name="Magenta (Internal)" Bounds="-295,962" Id="RbtAGs55sT8O3RYDPZUqsA">
                     <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                       <Choice Kind="ClassDefinition" Name="Class" />
                     </p:NodeReference>
@@ -2175,7 +2175,7 @@
     ************************ Yellow (Internal) ************************
 
 -->
-                  <Node Name="Yellow (Internal)" Bounds="-305,888" Id="B2EXJAkQiFOOjA6R33elfZ">
+                  <Node Name="Yellow (Internal)" Bounds="-295,1039" Id="B2EXJAkQiFOOjA6R33elfZ">
                     <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                       <Choice Kind="ClassDefinition" Name="Class" />
                     </p:NodeReference>
@@ -2306,7 +2306,7 @@
     ************************ Black (Internal) ************************
 
 -->
-                  <Node Name="Black (Internal)" Bounds="-305,965" Id="CMmMfdIZYANNe6BBZVa9QX">
+                  <Node Name="Black (Internal)" Bounds="-295,1116" Id="CMmMfdIZYANNe6BBZVa9QX">
                     <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                       <Choice Kind="ClassDefinition" Name="Class" />
                     </p:NodeReference>
@@ -2415,7 +2415,7 @@
     ************************ Alpha (Internal) ************************
 
 -->
-                  <Node Name="Alpha (Internal)" Bounds="-305,1042" Id="UGokhIzhhzENMIt3hISnPW">
+                  <Node Name="Alpha (Internal)" Bounds="-295,1193" Id="UGokhIzhhzENMIt3hISnPW">
                     <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                       <Choice Kind="ClassDefinition" Name="Class" />
                     </p:NodeReference>
@@ -2662,14 +2662,14 @@
     ************************ CreateInvert (OS) ************************
 
 -->
-                  <Node Name="CreateInvert (OS)" Bounds="554,-113,115,90" Id="Rmj2cH3AsQmP75p3twW6Ld">
+                  <Node Name="CreateInvert (OS)" Bounds="467,-168,115,90" Id="Rmj2cH3AsQmP75p3twW6Ld">
                     <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                       <Choice Kind="OperationDefinition" Name="Operation" />
                     </p:NodeReference>
                     <Patch Id="IUD4vZwDo2OLfjxHiiH31U" IsGeneric="true">
-                      <ControlPoint Id="QVNoE6yqXzDOH1nJsIkSfP" Bounds="568,-41" />
+                      <ControlPoint Id="QVNoE6yqXzDOH1nJsIkSfP" Bounds="481,-96" />
                       <Link Id="AeCSCckkTUKOU2tr8oZ4Yt" Ids="QVNoE6yqXzDOH1nJsIkSfP,EsSx0KmUaHsOOwAhhLaS2e" IsHidden="true" />
-                      <Node Bounds="566,-90,54,26" Id="Jc7hp9s5kTGM3iySYcDhFe">
+                      <Node Bounds="479,-145,54,26" Id="Jc7hp9s5kTGM3iySYcDhFe">
                         <p:NodeReference LastCategoryFullName="Fuse.Common.TextureFX.ColorManipulation.Invert.Invert (OS)" LastDependency="VL.Addons.Fuse.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <CategoryReference Kind="ClassType" Name="Invert (OS)" NeedsToBeDirectParent="true" />
@@ -2678,7 +2678,7 @@
                         <Pin Id="M1qnmdwJ1mrPHB5YKi20Su" Name="Output" Kind="StateOutputPin" />
                       </Node>
                       <Link Id="BzRHra3qLpVOHIMR8ITwun" Ids="M1qnmdwJ1mrPHB5YKi20Su,QVNoE6yqXzDOH1nJsIkSfP" />
-                      <ControlPoint Id="VIaENMpqhLgMuscwumly1p" Bounds="627,-40" />
+                      <ControlPoint Id="VIaENMpqhLgMuscwumly1p" Bounds="540,-95" />
                       <Link Id="GcMhK5yXXO4NJE79apUdi9" Ids="VIaENMpqhLgMuscwumly1p,FAVJSCAtF9ZPrFIQtDc9ZU" IsHidden="true" />
                       <Pin Id="EsSx0KmUaHsOOwAhhLaS2e" Name="Output" Kind="OutputPin">
                         <p:TypeAnnotation LastCategoryFullName="Fuse.Common.TextureFX.ColorManipulation.Invert" LastDependency="VL.Addons.Fuse.vl">
@@ -2708,10 +2708,10 @@
                   </Node>
                   <!--
 
-    ************************ Invert (OS) ************************
+    ************************ Invert (OS Internal) ************************
 
 -->
-                  <Node Name="Invert (OS)" Bounds="554,9" Id="PyORgtXNokDLLLQKYlLQx2">
+                  <Node Name="Invert (OS Internal)" Bounds="477,-33" Id="PyORgtXNokDLLLQKYlLQx2">
                     <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                       <Choice Kind="ClassDefinition" Name="Class" />
                     </p:NodeReference>
@@ -2913,14 +2913,14 @@
     ************************ CreateInvert (OT) ************************
 
 -->
-                  <Node Name="CreateInvert (OT)" Bounds="395,-113,117,90" Id="TJEM5TRYDlVQJuciEO72iW">
+                  <Node Name="CreateInvert (OT)" Bounds="281,-173,117,90" Id="TJEM5TRYDlVQJuciEO72iW">
                     <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                       <Choice Kind="OperationDefinition" Name="Operation" />
                     </p:NodeReference>
                     <Patch Id="TYTliIXArZgPLFaoIwEnVo" IsGeneric="true">
-                      <ControlPoint Id="J8STleZXKiTPATNJwCUCUd" Bounds="409,-40" />
+                      <ControlPoint Id="J8STleZXKiTPATNJwCUCUd" Bounds="295,-100" />
                       <Link Id="P3KwQqHhLpAO9PkKApIg4s" Ids="J8STleZXKiTPATNJwCUCUd,Gd2nifukIudPfdi3NET6v4" IsHidden="true" />
-                      <Node Bounds="407,-90,54,26" Id="JkrHyQku1nxMSz8d3rpzPR">
+                      <Node Bounds="293,-150,54,26" Id="JkrHyQku1nxMSz8d3rpzPR">
                         <p:NodeReference LastCategoryFullName="Fuse.Common.TextureFX.ColorManipulation.Invert.Invert (OT)" LastDependency="VL.Addons.Fuse.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <CategoryReference Kind="ClassType" Name="Invert (OT)" NeedsToBeDirectParent="true" />
@@ -2929,7 +2929,7 @@
                         <Pin Id="DOXWwVgPAJuMYqqbcZdy53" Name="Output" Kind="StateOutputPin" />
                       </Node>
                       <Link Id="IQvGVDidFAXNEH5sNWe8I8" Ids="DOXWwVgPAJuMYqqbcZdy53,J8STleZXKiTPATNJwCUCUd" />
-                      <ControlPoint Id="UXRAmSzdq2JOyK9HEY1VwD" Bounds="470,-41" />
+                      <ControlPoint Id="UXRAmSzdq2JOyK9HEY1VwD" Bounds="356,-101" />
                       <Link Id="MNpPsV68LGLQLo6sssaRcr" Ids="UXRAmSzdq2JOyK9HEY1VwD,BC3XLte5HSaOfbECU4g5PO" IsHidden="true" />
                       <Pin Id="Gd2nifukIudPfdi3NET6v4" Name="Output" Kind="OutputPin">
                         <p:TypeAnnotation LastCategoryFullName="Fuse.Common.TextureFX.ColorManipulation.Invert" LastDependency="VL.Addons.Fuse.vl">
@@ -2945,10 +2945,10 @@
                   </Node>
                   <!--
 
-    ************************ Invert (OT) ************************
+    ************************ Invert (OT Internal) ************************
 
 -->
-                  <Node Name="Invert (OT)" Bounds="395,9" Id="FWoSb1eKSmYPV4HgAQJijY">
+                  <Node Name="Invert (OT Internal)" Bounds="284,-30" Id="FWoSb1eKSmYPV4HgAQJijY">
                     <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                       <Choice Kind="ClassDefinition" Name="Class" />
                     </p:NodeReference>
@@ -3257,14 +3257,14 @@
     ************************ CreateInvert (OO) ************************
 
 -->
-                  <Node Name="CreateInvert (OO)" Bounds="704,-113,115,90" Id="Ezcw2Lbpw1qPMDH1mQXnlk">
+                  <Node Name="CreateInvert (OO)" Bounds="698,-166,115,90" Id="Ezcw2Lbpw1qPMDH1mQXnlk">
                     <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                       <Choice Kind="OperationDefinition" Name="Operation" />
                     </p:NodeReference>
                     <Patch Id="VE9s9As9c8yNfYYvcS22L9" IsGeneric="true">
-                      <ControlPoint Id="U9cA35RHdBlMKMSbGPnHho" Bounds="718,-40" />
+                      <ControlPoint Id="U9cA35RHdBlMKMSbGPnHho" Bounds="712,-93" />
                       <Link Id="Lx0BrHbJXVUPhCIWAnG17M" Ids="U9cA35RHdBlMKMSbGPnHho,VMAs6dHSywlOemH9BEaClS" IsHidden="true" />
-                      <Node Bounds="716,-90,54,26" Id="CRE2joyZe4mOqCMPxOUY85">
+                      <Node Bounds="710,-143,54,26" Id="CRE2joyZe4mOqCMPxOUY85">
                         <p:NodeReference LastCategoryFullName="Fuse.Common.TextureFX.ColorManipulation.Invert.Invert (OS)" LastDependency="VL.Addons.Fuse.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <CategoryReference Kind="ClassType" Name="Invert (OS)" NeedsToBeDirectParent="true" />
@@ -3273,7 +3273,7 @@
                         <Pin Id="JQ1efYpUISiPGukVCtt42w" Name="Output" Kind="StateOutputPin" />
                       </Node>
                       <Link Id="MzyuUkA678cLSbTl79Xntg" Ids="JQ1efYpUISiPGukVCtt42w,U9cA35RHdBlMKMSbGPnHho" />
-                      <ControlPoint Id="SnLdyGT2NaNQDHDY66zhzB" Bounds="777,-40" />
+                      <ControlPoint Id="SnLdyGT2NaNQDHDY66zhzB" Bounds="771,-93" />
                       <Link Id="E28GoxJMmGqL0S5GWNP4Y6" Ids="SnLdyGT2NaNQDHDY66zhzB,GVMnHRC109fLTaM5cQlWHD" IsHidden="true" />
                       <Pin Id="VMAs6dHSywlOemH9BEaClS" Name="Output" Kind="OutputPin">
                         <p:TypeAnnotation LastCategoryFullName="Fuse.Common.TextureFX.ColorManipulation.Invert" LastDependency="VL.Addons.Fuse.vl">
@@ -3317,16 +3317,16 @@
                   </Node>
                   <!--
 
-    ************************ CreateInvert (Adaptive) ************************
+    ************************ CreateInvert (Adaptive Internal) ************************
 
 -->
-                  <Node Name="CreateInvert (Adaptive)" Bounds="176,-87,123,55" Id="VxxrtkCRexVMZIXz7QYSFE">
+                  <Node Name="CreateInvert (Adaptive Internal)" Bounds="7,-165,123,55" Id="VxxrtkCRexVMZIXz7QYSFE">
                     <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                       <Choice Kind="OperationDefinition" Name="Operation" />
                     </p:NodeReference>
                     <Patch Id="TIfcbKsLh9WObDa9G2cvk4" IsGeneric="true" ExplicitTypeParameters="T">
-                      <ControlPoint Id="Swwlzarrh3UMCLxFgpCk9k" Bounds="190,-49" />
-                      <ControlPoint Id="TcKvS7XBonzNKcidgxknDJ" Bounds="257,-49" />
+                      <ControlPoint Id="Swwlzarrh3UMCLxFgpCk9k" Bounds="21,-127" />
+                      <ControlPoint Id="TcKvS7XBonzNKcidgxknDJ" Bounds="88,-127" />
                       <Link Id="GXrbAZIQsh8NZqNCZMnWoo" Ids="Swwlzarrh3UMCLxFgpCk9k,Rh7pYbb0hfUMpZJXam7pYz" IsHidden="true" />
                       <Link Id="O6aT7VHVHLWNPD0zMuxqUn" Ids="TcKvS7XBonzNKcidgxknDJ,BZfVXmNB1AtOZF2rmZc4oL" IsHidden="true" />
                       <Pin Id="Rh7pYbb0hfUMpZJXam7pYz" Name="Output" Kind="OutputPin">
@@ -3430,7 +3430,7 @@
                   <ControlPoint Id="F3gMMsPIKQPMQBxAvplLRY" Bounds="415,601" />
                   <Pad Id="UvxjLwG8w0xNMXZDrJ2EtN" SlotId="SxBQ2bFQmsbMzPecKVF2En" Bounds="388,188" />
                   <Pad Id="Q8kNSw7GjNXPERB3wC2CEr" SlotId="UvVkHSeUpccPNtQELWt6mc" Bounds="605,180" />
-                  <ControlPoint Id="U6qRNKpUfWPN0NapgHW0fH" Bounds="779,140" />
+                  <ControlPoint Id="U6qRNKpUfWPN0NapgHW0fH" Bounds="177,264" />
                 </Canvas>
                 <Link Id="Tj3FpZBTEptNknnlRU5fKA" Ids="QbVWk4OUQb6NpnikI6HQOj,ELcQkUu2fx3PW4v3qqd4x9" IsHidden="true" />
                 <Link Id="LmoLWpTdZHEPvf95IQSKH6" Ids="UQLWObTA3hhNGIcJv9PLpR,NoKVvZTPsXnON3mPO1ySfS" />
@@ -3723,46 +3723,10 @@
             </Node>
             <!--
 
-    ************************ ITextureFX ************************
-
--->
-            <Node Name="ITextureFX" Bounds="325,474" Id="GIEuI4Z4nYKONxjj5FJ1nn">
-              <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
-                <Choice Kind="InterfaceDefinition" Name="Interface" />
-              </p:NodeReference>
-              <Patch Id="MVHmm420ozPNa1txwbJZ2W" IsGeneric="true">
-                <Canvas Id="FvWk1opDGB2PzwhQi6vBJG" CanvasType="Group">
-                  <ControlPoint Id="MAfiNIS5NB2NxTPP3TFUAh" Bounds="256,216" />
-                  <ControlPoint Id="SPTpgSeMmYcMdGORgUneza" Bounds="321,337" />
-                  <ControlPoint Id="C3zq0CmYnNlQHYkUurz2Cx" Bounds="394,217" />
-                </Canvas>
-                <ProcessDefinition Id="Fliwvn9KmV3OZzBJkvwIFO" IsHidden="true">
-                  <Fragment Id="P7dddc1MPghOshH3SS3Xvz" Patch="T9vZAif69UbNYID9S7CKDf" />
-                </ProcessDefinition>
-                <Link Id="I9BjmUNbA5ELSI6e1h1nSI" Ids="UOv3EIelp3XOdbxpxSTZIY,MAfiNIS5NB2NxTPP3TFUAh" IsHidden="true" />
-                <Link Id="O6jlSV8sZyHNHmY0669KR4" Ids="SPTpgSeMmYcMdGORgUneza,O665TiSah3gPFQfFyh3KRj" IsHidden="true" />
-                <Link Id="OhnU5eY4WwLLILFx53jiVf" Ids="OHeCzYBl9bjMoqo32ssC9z,C3zq0CmYnNlQHYkUurz2Cx" IsHidden="true" />
-                <Patch Id="T9vZAif69UbNYID9S7CKDf" Name="Update">
-                  <Pin Id="UOv3EIelp3XOdbxpxSTZIY" Name="Input" Kind="InputPin">
-                    <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-                      <Choice Kind="TypeFlag" Name="Object" />
-                    </p:TypeAnnotation>
-                  </Pin>
-                  <Pin Id="OHeCzYBl9bjMoqo32ssC9z" Name="Enable" Kind="InputPin" DefaultValue="True">
-                    <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-                      <Choice Kind="TypeFlag" Name="Boolean" />
-                    </p:TypeAnnotation>
-                  </Pin>
-                  <Pin Id="O665TiSah3gPFQfFyh3KRj" Name="Output" Kind="OutputPin" />
-                </Patch>
-              </Patch>
-            </Node>
-            <!--
-
     ************************ ColorMatrix ************************
 
 -->
-            <Node Name="ColorMatrix" Bounds="507,252" Id="SNu412JRqVDOlzgLjdCFWg">
+            <Node Name="ColorMatrix" Bounds="113,129" Id="SNu412JRqVDOlzgLjdCFWg">
               <p:NodeReference>
                 <Choice Kind="ClassDefinition" Name="Class" />
                 <CategoryReference Kind="Category" Name="Primitive" />
@@ -3779,16 +3743,16 @@
     ************************ CreateColorMatrix (OS) ************************
 
 -->
-                  <Node Name="CreateColorMatrix (OS)" Bounds="776,458,115,88" Id="TxI09xUn76vNNu5TvYZ3cb">
+                  <Node Name="CreateColorMatrix (OS)" Bounds="638,-129,115,88" Id="TxI09xUn76vNNu5TvYZ3cb">
                     <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                       <Choice Kind="OperationDefinition" Name="Operation" />
                     </p:NodeReference>
                     <Patch Id="EVCuvRbQ14RM2ymDUI9S7Y" IsGeneric="true">
-                      <ControlPoint Id="QTdzKIb6xXRPhDsnGozbeM" Bounds="790,528" />
+                      <ControlPoint Id="QTdzKIb6xXRPhDsnGozbeM" Bounds="652,-59" />
                       <Link Id="BEyFDrvN06JPekoP6sfAzk" Ids="QTdzKIb6xXRPhDsnGozbeM,Bc3RX8lGrkCOY34DDtsyj2" IsHidden="true" />
-                      <ControlPoint Id="TrWEIiCUknMO54pCnYxxB8" Bounds="849,529" />
+                      <ControlPoint Id="TrWEIiCUknMO54pCnYxxB8" Bounds="711,-58" />
                       <Link Id="GH0qN29UVFKPytTHkr58Vd" Ids="TrWEIiCUknMO54pCnYxxB8,BmqXSw0X4QHMgGnR4XQ8yZ" IsHidden="true" />
-                      <Node Bounds="788,481,75,26" Id="EwRJv4v1hmDQQzLym0Rq5C">
+                      <Node Bounds="650,-106,75,26" Id="EwRJv4v1hmDQQzLym0Rq5C">
                         <p:NodeReference LastCategoryFullName="Fuse.Common.TextureFX.ColorManipulation.ColorMatrix.ColorMatrix (OS)" LastDependency="VL.Addons.Fuse.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <CategoryReference Kind="ClassType" Name="ColorMatrix (OS)" />
@@ -3814,8 +3778,8 @@
                       </Pin>
                     </Patch>
                   </Node>
-                  <Pad Id="SkoThlOXNkbPN42fj8D42P" Bounds="337,705" />
-                  <Node Bounds="335,659,99,19" Id="BAy531pgX4kM6WF6GEKc2N">
+                  <Pad Id="SkoThlOXNkbPN42fj8D42P" Bounds="104,147" />
+                  <Node Bounds="102,101,99,19" Id="BAy531pgX4kM6WF6GEKc2N">
                     <p:NodeReference LastCategoryFullName="Fuse.Common.TextureFX.ColorManipulation.ColorMatrix" LastDependency="VL.Addons.Fuse.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="CreateColorMatrix" />
@@ -3825,10 +3789,10 @@
                   </Node>
                   <!--
 
-    ************************ ColorMatrix (OS) ************************
+    ************************ ColorMatrix (OS Internal) ************************
 
 -->
-                  <Node Name="ColorMatrix (OS)" Bounds="776,578" Id="OoPLgqdSDTpOw7XSl2cDKZ">
+                  <Node Name="ColorMatrix (OS Internal)" Bounds="638,-9" Id="OoPLgqdSDTpOw7XSl2cDKZ">
                     <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                       <Choice Kind="ClassDefinition" Name="Class" />
                     </p:NodeReference>
@@ -4055,16 +4019,16 @@
     ************************ CreateColorMatrix (OT) ************************
 
 -->
-                  <Node Name="CreateColorMatrix (OT)" Bounds="552,457,117,89" Id="QDXHUhGbFNhNSYkOsjJF6l">
+                  <Node Name="CreateColorMatrix (OT)" Bounds="414,-130,117,89" Id="QDXHUhGbFNhNSYkOsjJF6l">
                     <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                       <Choice Kind="OperationDefinition" Name="Operation" />
                     </p:NodeReference>
                     <Patch Id="TweJNH3wMiKPUVeTY2qrf3" IsGeneric="true">
-                      <ControlPoint Id="HiFuDQtbs9SL69VDKnb0bm" Bounds="566,529" />
+                      <ControlPoint Id="HiFuDQtbs9SL69VDKnb0bm" Bounds="428,-58" />
                       <Link Id="NjyuBwAOO61PhnEb8GaxSd" Ids="HiFuDQtbs9SL69VDKnb0bm,TH8Qm1jnz4MNstbYsRPcoK" IsHidden="true" />
-                      <ControlPoint Id="SLpPQ2n3tllOVJ1SnC5UcQ" Bounds="627,528" />
+                      <ControlPoint Id="SLpPQ2n3tllOVJ1SnC5UcQ" Bounds="489,-59" />
                       <Link Id="EVA4yVwb0OJNrRo5sw3ay8" Ids="SLpPQ2n3tllOVJ1SnC5UcQ,Pzyqe1un4UEMRf9IlNrjik" IsHidden="true" />
-                      <Node Bounds="564,480,76,26" Id="TIvQDp6apVlLgYRvZHrV76">
+                      <Node Bounds="426,-107,76,26" Id="TIvQDp6apVlLgYRvZHrV76">
                         <p:NodeReference LastCategoryFullName="Fuse.Common.TextureFX.ColorManipulation.ColorMatrix.ColorMatrix (OT)" LastDependency="VL.Addons.Fuse.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <CategoryReference Kind="ClassType" Name="ColorMatrix (OT)" />
@@ -4087,10 +4051,10 @@
                   </Node>
                   <!--
 
-    ************************ ColorMatrix (OT) ************************
+    ************************ ColorMatrix (OT Internal) ************************
 
 -->
-                  <Node Name="ColorMatrix (OT)" Bounds="552,578" Id="UlgFKsHVRPhNkMADIuZOT8">
+                  <Node Name="ColorMatrix (OT Internal)" Bounds="414,-9" Id="UlgFKsHVRPhNkMADIuZOT8">
                     <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                       <Choice Kind="ClassDefinition" Name="Class" />
                     </p:NodeReference>
@@ -4350,22 +4314,22 @@
                       <Link Id="Px9DrZGLkvuNnH0oRuCywZ" Ids="E1BIQvTa1MIN1zcuzQ0PQv,MaRlJygrOccNir5jpJbcfA" />
                     </Patch>
                   </Node>
-                  <ControlPoint Id="SIKgN1LSTykMOlNSHlpkEJ" Bounds="374,844" />
+                  <ControlPoint Id="SIKgN1LSTykMOlNSHlpkEJ" Bounds="141,286" />
                   <!--
 
     ************************ CreateColorMatrix (OO) ************************
 
 -->
-                  <Node Name="CreateColorMatrix (OO)" Bounds="989,460,115,91" Id="GHsMp3hRcYZLRlOq1z9Xoj">
+                  <Node Name="CreateColorMatrix (OO)" Bounds="851,-127,115,91" Id="GHsMp3hRcYZLRlOq1z9Xoj">
                     <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                       <Choice Kind="OperationDefinition" Name="Operation" />
                     </p:NodeReference>
                     <Patch Id="AtbxA8foq5nOtoQbEAHoFS" IsGeneric="true">
-                      <ControlPoint Id="H5uhj9sDPX1Ovf5qxHplGm" Bounds="1003,534" />
+                      <ControlPoint Id="H5uhj9sDPX1Ovf5qxHplGm" Bounds="865,-53" />
                       <Link Id="R8xGVOlEGaxLxxESHJoZFZ" Ids="H5uhj9sDPX1Ovf5qxHplGm,N0a3RL2BaEqO1seKOM0xSC" IsHidden="true" />
-                      <ControlPoint Id="Cx2dgSrDelDO6PnTsw9ERk" Bounds="1062,534" />
+                      <ControlPoint Id="Cx2dgSrDelDO6PnTsw9ERk" Bounds="924,-53" />
                       <Link Id="OLJcZM3OxPmMt7Qd0M4PzQ" Ids="Cx2dgSrDelDO6PnTsw9ERk,J28ZcjZSQDuLz7kowEkUjY" IsHidden="true" />
-                      <Node Bounds="1001,483,75,26" Id="Khr76UZ8Jg1PRsCXobNJuT">
+                      <Node Bounds="863,-104,75,26" Id="Khr76UZ8Jg1PRsCXobNJuT">
                         <p:NodeReference LastCategoryFullName="Fuse.Common.TextureFX.ColorManipulation.ColorMatrix.ColorMatrix (OS)" LastDependency="VL.Addons.Fuse.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <CategoryReference Kind="ClassType" Name="ColorMatrix (OS)" />
@@ -4386,7 +4350,7 @@
                       </Pin>
                     </Patch>
                   </Node>
-                  <Node Bounds="559,1079,48,19" Id="M7bcJXJb2eOPPLaYKzlVtI">
+                  <Node Bounds="326,521,48,19" Id="M7bcJXJb2eOPPLaYKzlVtI">
                     <p:NodeReference LastCategoryFullName="Primitive.Object" LastDependency="VL.CoreLib.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="CastAs" />
@@ -4396,8 +4360,8 @@
                     <Pin Id="GdbmMxaKnnHPolBSZ6QEOg" Name="Result" Kind="OutputPin" />
                     <Pin Id="B6gZA63s3lfODS2a8h7iRS" Name="Success" Kind="OutputPin" />
                   </Node>
-                  <Pad Id="E93ha8UkwH4LMivezhxx5K" SlotId="UuwdohTfU7QMLmZFKKHT2P" Bounds="431,705" />
-                  <Node Bounds="335,1068,55,19" Id="T9foDQRSnWdPHLpxS5ETIG">
+                  <Pad Id="E93ha8UkwH4LMivezhxx5K" SlotId="UuwdohTfU7QMLmZFKKHT2P" Bounds="198,147" />
+                  <Node Bounds="101,510,55,19" Id="T9foDQRSnWdPHLpxS5ETIG">
                     <p:NodeReference LastCategoryFullName="System.Conversion" LastDependency="VL.CoreLib.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="ToString" />
@@ -4405,7 +4369,7 @@
                     <Pin Id="NTjRZ3gFfdLMyfDi3UlkcP" Name="Input" Kind="InputPin" />
                     <Pin Id="JoXNUV7pUTOPMOiiGJ0Yry" Name="Result" Kind="OutputPin" />
                   </Node>
-                  <Node Bounds="334,1010,50,26" Id="Uq0ZG32Xhc7NORpBxzBOCq">
+                  <Node Bounds="101,452,50,26" Id="Uq0ZG32Xhc7NORpBxzBOCq">
                     <p:NodeReference LastCategoryFullName="System.Reflection.IVLObject" LastDependency="VL.CoreLib.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <FullNameCategoryReference ID="System.Reflection.IVLObject" />
@@ -4416,16 +4380,16 @@
                   </Node>
                   <!--
 
-    ************************ CreateColorMatrix (Adaptive) ************************
+    ************************ CreateColorMatrix (Adaptive Internal) ************************
 
 -->
-                  <Node Name="CreateColorMatrix (Adaptive)" Bounds="303,457,123,55" Id="VCn168R0zzqN3Qx4ncutWs">
+                  <Node Name="CreateColorMatrix (Adaptive Internal)" Bounds="86,-128,123,55" Id="VCn168R0zzqN3Qx4ncutWs">
                     <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                       <Choice Kind="OperationDefinition" Name="Operation" />
                     </p:NodeReference>
                     <Patch Id="EZK3REuQpc7LEBO0CXnolZ" IsGeneric="true" ExplicitTypeParameters="T">
-                      <ControlPoint Id="VfL9ykBlfWLP7XwfKAsijj" Bounds="317,495" />
-                      <ControlPoint Id="G5xT0pz19zRO2BT7crAqQV" Bounds="384,495" />
+                      <ControlPoint Id="VfL9ykBlfWLP7XwfKAsijj" Bounds="100,-90" />
+                      <ControlPoint Id="G5xT0pz19zRO2BT7crAqQV" Bounds="167,-90" />
                       <Link Id="LjR7WnxoD7DNQyvqwSgE83" Ids="VfL9ykBlfWLP7XwfKAsijj,L4fG1NIBXPtNnoiYWx0JZ2" IsHidden="true" />
                       <Link Id="O5NTspPPpLkMtRzE09yGdj" Ids="G5xT0pz19zRO2BT7crAqQV,D5Miiz9TmBdQcwo1mDHo6l" IsHidden="true" />
                       <Pin Id="L4fG1NIBXPtNnoiYWx0JZ2" Name="Output" Kind="OutputPin">
@@ -4440,7 +4404,7 @@
                       </Pin>
                     </Patch>
                   </Node>
-                  <Node Bounds="487,776,52,19" Id="EvRGJSED7E2MP1jy1zyzt7">
+                  <Node Bounds="176,248,52,19" Id="EvRGJSED7E2MP1jy1zyzt7">
                     <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <CategoryReference Kind="ClassType" Name="Spread" NeedsToBeDirectParent="true" />
@@ -4451,22 +4415,22 @@
                     <Pin Id="JyTS9cDOplvQE707raVPEj" Name="Index" Kind="InputPin" />
                     <Pin Id="OxCtqd4JtITMHtEuXPEapC" Name="Result" Kind="OutputPin" />
                   </Node>
-                  <Pad Id="PkchhJjYljpNmnIgSEf8D3" SlotId="RXuBYg6E3WdLkisjT2vLUi" Bounds="489,750" />
-                  <Node Bounds="322,888,256,112" Id="LYldPAEL6ycPKlnNY3dHhj">
+                  <Pad Id="PkchhJjYljpNmnIgSEf8D3" SlotId="RXuBYg6E3WdLkisjT2vLUi" Bounds="256,192" />
+                  <Node Bounds="89,330,256,112" Id="LYldPAEL6ycPKlnNY3dHhj">
                     <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                       <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                       <CategoryReference Kind="Category" Name="Primitive" />
                       <Choice Kind="ApplicationStatefulRegion" Name="If" />
                     </p:NodeReference>
                     <Pin Id="SQ3uBtJZjJtOZAPmjogwjf" Name="Condition" Kind="InputPin" />
-                    <ControlPoint Id="SxSWjRa1FruM8lBDfyUXjq" Bounds="374,894" Alignment="Top" />
-                    <ControlPoint Id="Ij1rj2L4Or5NDtg6qKLHPg" Bounds="561,994" Alignment="Bottom" />
-                    <ControlPoint Id="LKupPGFV2FRMiuSFQy28Is" Bounds="336,994" Alignment="Bottom" />
-                    <ControlPoint Id="QZTr2k1z5qAPZweU7pC6JO" Bounds="336,894" Alignment="Top" />
+                    <ControlPoint Id="SxSWjRa1FruM8lBDfyUXjq" Bounds="141,336" Alignment="Top" />
+                    <ControlPoint Id="Ij1rj2L4Or5NDtg6qKLHPg" Bounds="328,436" Alignment="Bottom" />
+                    <ControlPoint Id="LKupPGFV2FRMiuSFQy28Is" Bounds="103,436" Alignment="Bottom" />
+                    <ControlPoint Id="QZTr2k1z5qAPZweU7pC6JO" Bounds="103,336" Alignment="Top" />
                     <Patch Id="GEHPmAoTRdQNChAVWec8v0" ManuallySortedPins="true">
                       <Patch Id="LXtWt9DuXjUQIkNNye7V9W" Name="Create" ManuallySortedPins="true" />
                       <Patch Id="KSDGPfbHzVSPdRHiFVmQaX" Name="Then" ManuallySortedPins="true" />
-                      <Node Bounds="334,933,230,26" Id="VN0IEGSM5WIPAFLUsKLySc">
+                      <Node Bounds="101,375,230,26" Id="VN0IEGSM5WIPAFLUsKLySc">
                         <p:NodeReference LastCategoryFullName="Fuse.Common.TextureFX.ColorManipulation.ColorMatrix.IColorMatrix" LastDependency="VL.Addons.Fuse.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <CategoryReference Kind="InterfaceTypeFlag" Name="IColorMatrix" />
@@ -4484,15 +4448,15 @@
                       </Node>
                     </Patch>
                   </Node>
-                  <Pad Id="SV8xdNivv9BLfeKgXyCJvL" Comment="" Bounds="337,1129,35,15" ShowValueBox="true" isIOBox="true" />
-                  <ControlPoint Id="T85r9GLoHTeM3kesjOGmlw" Bounds="561,1129" />
-                  <ControlPoint Id="PMmYOOIdmBdPgS0IwBd1p8" Bounds="973,674" />
+                  <Pad Id="SV8xdNivv9BLfeKgXyCJvL" Comment="" Bounds="103,571,35,15" ShowValueBox="true" isIOBox="true" />
+                  <ControlPoint Id="T85r9GLoHTeM3kesjOGmlw" Bounds="328,571" />
+                  <ControlPoint Id="PMmYOOIdmBdPgS0IwBd1p8" Bounds="90,231" />
                   <!--
 
     ************************ IColorMatrix ************************
 
 -->
-                  <Node Name="IColorMatrix" Bounds="-38,479" Id="SFOJjsuLWXZOwtQt4HusDQ">
+                  <Node Name="IColorMatrix" Bounds="-218,142" Id="SFOJjsuLWXZOwtQt4HusDQ">
                     <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                       <Choice Kind="InterfaceDefinition" Name="Interface" />
                     </p:NodeReference>
@@ -4580,7 +4544,7 @@
     ************************ IColorMatrixOperation ************************
 
 -->
-                  <Node Name="IColorMatrixOperation" Bounds="-41,560" Id="SRrRtLEpZOtOpgRXmlbTAE">
+                  <Node Name="IColorMatrixOperation" Bounds="-221,223" Id="SRrRtLEpZOtOpgRXmlbTAE">
                     <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                       <Choice Kind="InterfaceDefinition" Name="Interface" />
                     </p:NodeReference>
@@ -4666,7 +4630,7 @@
                       </Patch>
                     </Patch>
                   </Node>
-                  <Node Bounds="293,141,175,19" Id="Cuhp3BKNei6LLUv3rRIzTd">
+                  <Node Bounds="84,-245,175,19" Id="Cuhp3BKNei6LLUv3rRIzTd">
                     <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <CategoryReference Kind="ClassType" Name="Spread" NeedsToBeDirectParent="true" />
@@ -4675,13 +4639,13 @@
                     <Pin Id="Pj9Odv7WMoKNDNE2L4Cs64" Name="Input" Kind="InputPin" />
                     <Pin Id="PilEw94a5R6NA2PSM1InDI" Name="Result" Kind="OutputPin" />
                   </Node>
-                  <Pad Id="Uha430cIipPP7KiBaajJLA" SlotId="RXuBYg6E3WdLkisjT2vLUi" Bounds="295,203" />
+                  <Pad Id="Uha430cIipPP7KiBaajJLA" SlotId="RXuBYg6E3WdLkisjT2vLUi" Bounds="86,-183" />
                   <!--
 
     ************************ RGBAMatrix (Internal) ************************
 
 -->
-                  <Node Name="RGBAMatrix (Internal)" Bounds="-40,644" Id="RqER2Cdeq1tPBmODttXgkx">
+                  <Node Name="RGBAMatrix (Internal)" Bounds="-220,307" Id="RqER2Cdeq1tPBmODttXgkx">
                     <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                       <Choice Kind="ClassDefinition" Name="Class" />
                     </p:NodeReference>
@@ -4791,7 +4755,7 @@
                       </Patch>
                     </Patch>
                   </Node>
-                  <Node Bounds="293,81,58,26" Id="UTu7nzlCG6BN3BWQQUxZn2">
+                  <Node Bounds="84,-305,58,26" Id="UTu7nzlCG6BN3BWQQUxZn2">
                     <p:NodeReference LastCategoryFullName="Fuse.Common.TextureFX.ColorManipulation.ColorMatrix.RGBAMatrix" LastDependency="VL.Addons.Fuse.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <CategoryReference Kind="ClassType" Name="RGBAMatrix" />
@@ -4799,7 +4763,7 @@
                     </p:NodeReference>
                     <Pin Id="Hpy2PnKyDunLRZIUQcjG6O" Name="Output" Kind="StateOutputPin" />
                   </Node>
-                  <Pad Id="IpFhPUOaHiZMvW7Tv8QXrv" Comment="" Bounds="664,708" isIOBox="true" Value="1, 1, 1, 1">
+                  <Pad Id="IpFhPUOaHiZMvW7Tv8QXrv" Comment="" Bounds="431,150" isIOBox="true" Value="1, 1, 1, 1">
                     <p:TypeAnnotation LastCategoryFullName="Fuse.Core.Implementation" LastDependency="VL.Fuse.vl">
                       <Choice Kind="TypeFlag" Name="ShaderNode" />
                       <p:TypeArguments>
@@ -4809,8 +4773,8 @@
                       </p:TypeArguments>
                     </p:TypeAnnotation>
                   </Pad>
-                  <ControlPoint Id="O4lPpspYA2nMuF293FgAfS" Bounds="664,672" />
-                  <Pad Id="U3qNZWA0JscMI4NUsmY2dB" Comment="" Bounds="741,708" isIOBox="true" Value="1, 1, 1, 1">
+                  <ControlPoint Id="O4lPpspYA2nMuF293FgAfS" Bounds="431,114" />
+                  <Pad Id="U3qNZWA0JscMI4NUsmY2dB" Comment="" Bounds="508,150" isIOBox="true" Value="1, 1, 1, 1">
                     <p:TypeAnnotation LastCategoryFullName="Fuse.Core.Implementation" LastDependency="VL.Fuse.vl">
                       <Choice Kind="TypeFlag" Name="ShaderNode" />
                       <p:TypeArguments>
@@ -4820,8 +4784,8 @@
                       </p:TypeArguments>
                     </p:TypeAnnotation>
                   </Pad>
-                  <ControlPoint Id="PQC8hAuhZTqPTW0Gt6QEEc" Bounds="741,673" />
-                  <Pad Id="EhvZymqhW6JNQlgoi1t7rP" Comment="" Bounds="814,708" isIOBox="true">
+                  <ControlPoint Id="PQC8hAuhZTqPTW0Gt6QEEc" Bounds="508,115" />
+                  <Pad Id="EhvZymqhW6JNQlgoi1t7rP" Comment="" Bounds="581,150" isIOBox="true">
                     <p:TypeAnnotation LastCategoryFullName="Fuse.Core.Implementation" LastDependency="VL.Fuse.vl">
                       <Choice Kind="TypeFlag" Name="ShaderNode" />
                       <p:TypeArguments>
@@ -4831,8 +4795,8 @@
                       </p:TypeArguments>
                     </p:TypeAnnotation>
                   </Pad>
-                  <ControlPoint Id="PG1WLotuZTwNv0wXEzR3zr" Bounds="814,672" />
-                  <Pad Id="AEYEkbTKi62MRO4NXkqLSc" Comment="Blue" Bounds="891,708" isIOBox="true">
+                  <ControlPoint Id="PG1WLotuZTwNv0wXEzR3zr" Bounds="581,114" />
+                  <Pad Id="AEYEkbTKi62MRO4NXkqLSc" Comment="Blue" Bounds="658,150" isIOBox="true">
                     <p:TypeAnnotation LastCategoryFullName="Fuse.Core.Implementation" LastDependency="VL.Fuse.vl">
                       <Choice Kind="TypeFlag" Name="ShaderNode" />
                       <p:TypeArguments>
@@ -4842,8 +4806,8 @@
                       </p:TypeArguments>
                     </p:TypeAnnotation>
                   </Pad>
-                  <ControlPoint Id="UZYjGE1qMCYMp7dZwddL2r" Bounds="891,673" />
-                  <Pad Id="V04yhPIWf0EPQJ50LF5sPr" Comment="Index" Bounds="536,750,35,15" ShowValueBox="true" isIOBox="true" Value="0">
+                  <ControlPoint Id="UZYjGE1qMCYMp7dZwddL2r" Bounds="658,115" />
+                  <Pad Id="V04yhPIWf0EPQJ50LF5sPr" Comment="Index" Bounds="225,222,35,15" ShowValueBox="true" isIOBox="true" Value="0">
                     <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                       <Choice Kind="TypeFlag" Name="Integer32" />
                     </p:TypeAnnotation>
@@ -4924,7 +4888,7 @@
                   <Pin Id="IX12bpxISbJMMHpad8PGlY" Name="Blue" Kind="InputPin" />
                 </Patch>
                 <Link Id="En2JHbRgf9PPlYUmERfQWq" Ids="V04yhPIWf0EPQJ50LF5sPr,JyTS9cDOplvQE707raVPEj" />
-                <Link Id="LMio2kJwS5bPgwVa3B9RfS" Ids="Uha430cIipPP7KiBaajJLA,Kxf3xbDN2uePzRNG56pHk4" />
+                <Link Id="L0GH4EhYB1eOLuFuNqRdda" Ids="PkchhJjYljpNmnIgSEf8D3,Kxf3xbDN2uePzRNG56pHk4" />
               </Patch>
             </Node>
           </Canvas>
@@ -5108,6 +5072,42 @@
               </Patch>
             </Node>
           </Canvas>
+          <!--
+
+    ************************ ITextureFX ************************
+
+-->
+          <Node Name="ITextureFX" Bounds="118,228" Id="BIXdnzyQbibLpst5n3Rvit">
+            <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
+              <Choice Kind="InterfaceDefinition" Name="Interface" />
+            </p:NodeReference>
+            <Patch Id="PeR0N1dHCUrMgN0Mmaoqop" IsGeneric="true">
+              <Canvas Id="H2autLMiG0LNBcFKug3T6r" CanvasType="Group">
+                <ControlPoint Id="MVEzW2YgYuAO7SnlIK1QIn" Bounds="256,216" />
+                <ControlPoint Id="VFIFzVgS92wPdKcw8jXEnC" Bounds="321,337" />
+                <ControlPoint Id="M0XGQ9cLzj5OIjre2SkWir" Bounds="394,217" />
+              </Canvas>
+              <ProcessDefinition Id="TFXFZ7XUnOTLrjNPzHn6CC" IsHidden="true">
+                <Fragment Id="UgDacRa7ATBOp1fKG77nPN" Patch="T6mij5jbYgoOStd9ABPOB5" />
+              </ProcessDefinition>
+              <Link Id="G7V0yQKazRPN0xLQ4Iu9sG" Ids="Peow0vWtgLCMu5A17i1284,MVEzW2YgYuAO7SnlIK1QIn" IsHidden="true" />
+              <Link Id="PhkYoJsrIopL3Hh8DMjzya" Ids="VFIFzVgS92wPdKcw8jXEnC,PFjTfi6NX4nPWHXqfAF6An" IsHidden="true" />
+              <Link Id="Auqv1fS9VopNGpjpEaXJoe" Ids="M9ELPHRQj42PGygkNnTnOM,M0XGQ9cLzj5OIjre2SkWir" IsHidden="true" />
+              <Patch Id="T6mij5jbYgoOStd9ABPOB5" Name="Update">
+                <Pin Id="Peow0vWtgLCMu5A17i1284" Name="Input" Kind="InputPin">
+                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                    <Choice Kind="TypeFlag" Name="Object" />
+                  </p:TypeAnnotation>
+                </Pin>
+                <Pin Id="M9ELPHRQj42PGygkNnTnOM" Name="Enable" Kind="InputPin" DefaultValue="True">
+                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                    <Choice Kind="TypeFlag" Name="Boolean" />
+                  </p:TypeAnnotation>
+                </Pin>
+                <Pin Id="PFjTfi6NX4nPWHXqfAF6An" Name="Output" Kind="OutputPin" />
+              </Patch>
+            </Patch>
+          </Node>
         </Canvas>
       </Canvas>
     </Canvas>

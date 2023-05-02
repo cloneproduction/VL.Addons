@@ -30,28 +30,12 @@
             <Pin Id="VH1XQYngnPWLxIUrYveCvy" Name="Is Loading" Kind="OutputPin" />
             <Pin Id="QyhKJBt8AmEPjNuIR6o41H" Name="Already Loaded" Kind="OutputPin" />
           </Node>
-          <Node Bounds="324,336,65,19" Id="PxCNQxC1RdnMvAN66VssxM">
-            <p:NodeReference LastCategoryFullName="Fuse.Common.TextureFX.ColorManipulation" LastDependency="VL.Addons.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="Invert (Interface)" />
-            </p:NodeReference>
-            <Pin Id="RaUQJ6xgte5NJJVSwe9RSG" Name="Input" Kind="InputPin" />
-            <Pin Id="QHrYUKKWtUOM3WpnJcXXLu" Name="Invert Mode" Kind="InputPin" DefaultValue="RedBlue" />
-            <Pin Id="Td1K2ebZaVdPduPDe6hEde" Name="Invert Alpha" Kind="InputPin" />
-            <Pin Id="HPowRYGaxj6MOry8Iuf1GM" Name="Format" Kind="InputPin" />
-            <Pin Id="LryIRHHRY8fLvKoxkorZbu" Name="Output" Kind="OutputPin" />
-          </Node>
-          <Pad Id="KMO5bQqPQCoLoIw0sWOuA4" Comment="Invert Mode" Bounds="346,297,75,15" ShowValueBox="true" isIOBox="true" Value="GreenBlue">
-            <p:TypeAnnotation LastCategoryFullName="Fuse.Common.TextureFX" LastDependency="VL.Addons.vl">
-              <Choice Kind="TypeFlag" Name="InvertMode" />
-            </p:TypeAnnotation>
-          </Pad>
           <Node Bounds="283,421,225,19" Id="DCjSlGj9b2CLNAQidI4SA1">
             <p:NodeReference LastCategoryFullName="Stride.Textures" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="TextureWindow" />
             </p:NodeReference>
-            <Pin Id="MdSr8EO89RwPrGjO5Xx8EL" Name="Bounds" Kind="InputPin" DefaultValue="1467.4286, 199.42857, 432, 419.42856" />
+            <Pin Id="MdSr8EO89RwPrGjO5Xx8EL" Name="Bounds" Kind="InputPin" DefaultValue="1467, 199, 432, 419" />
             <Pin Id="HdPpMKS6emLPdK5mkxhqm0" Name="Bound to Document" Kind="InputPin" DefaultValue="True" />
             <Pin Id="D221lL67eblOchesoE5TMA" Name="Input" Kind="InputPin" />
             <Pin Id="QkZaxD98Rl2NaRLBlXZXb0" Name="Title" Kind="InputPin" DefaultValue="Invert" />
@@ -67,7 +51,7 @@
             <Pin Id="MTnrc0nTpTwNu6z6jzlAu9" Name="Client Bounds" Kind="OutputPin" />
             <Pin Id="L3XYCkR7ivfOL7LoeLLxW8" Name="Input Source" Kind="OutputPin" />
           </Node>
-          <Pad Id="TtS5anqfub9LgYlitPhPlq" Bounds="494,301,287,45" ShowValueBox="true" isIOBox="true" Value="First time one of the modes is selected there is a big frame drop. after that not anymore.">
+          <Pad Id="TtS5anqfub9LgYlitPhPlq" Bounds="498,322,287,45" ShowValueBox="true" isIOBox="true" Value="First time one of the modes is selected there is a big frame drop. after that not anymore.">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -76,6 +60,18 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
+          <Node Bounds="322,338,65,19" Id="P4HAmcpKE5jQY8Wxps6z7o">
+            <p:NodeReference LastCategoryFullName="Fuse.Common.TextureFX.ColorManipulation" LastDependency="VL.Addons.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="Category" Name="ColorManipulation" NeedsToBeDirectParent="true" />
+              <Choice Kind="ProcessAppFlag" Name="Invert" />
+            </p:NodeReference>
+            <Pin Id="QwEsHPVDKIaP75RsFiDWdo" Name="Input" Kind="InputPin" />
+            <Pin Id="EfYjHC0325bPOALFHlQg1Y" Name="Enable" Kind="InputPin" />
+            <Pin Id="O4H2wcH6WsoO4yZDe4evhU" Name="Invert Mode" Kind="InputPin" />
+            <Pin Id="HpxIowPMjZjMcdvBpv8YBK" Name="Invert Alpha" Kind="InputPin" />
+            <Pin Id="JLdCUyK17KyOrRanJort7d" Name="Output" Kind="OutputPin" />
+          </Node>
         </Canvas>
         <Patch Id="GilLuWgpPAUQaFSH8hQKm1" Name="Create" />
         <Patch Id="UNqIDLC7B4KM3B0WtLzc88" Name="Update" />
@@ -83,9 +79,8 @@
           <Fragment Id="LwEnChZrZPvPZGhFgv9P1O" Patch="GilLuWgpPAUQaFSH8hQKm1" Enabled="true" />
           <Fragment Id="PqpOI8DULdNPjXw4t13aK0" Patch="UNqIDLC7B4KM3B0WtLzc88" Enabled="true" />
         </ProcessDefinition>
-        <Link Id="GhnZ4PhqcOOLA1yxRSqBaK" Ids="KJXD7WwNl4ONTo9MRjrfqo,RaUQJ6xgte5NJJVSwe9RSG" />
-        <Link Id="KysWuHolzvaPrZXX4RLkJg" Ids="KMO5bQqPQCoLoIw0sWOuA4,QHrYUKKWtUOM3WpnJcXXLu" />
-        <Link Id="TDG1cdvOLb3PNmnwMA0Iky" Ids="LryIRHHRY8fLvKoxkorZbu,D221lL67eblOchesoE5TMA" />
+        <Link Id="LT9UnOqJfi7LVo4ZxzM3Q2" Ids="KJXD7WwNl4ONTo9MRjrfqo,QwEsHPVDKIaP75RsFiDWdo" />
+        <Link Id="IqW4oKUVNTpL5JWtsFKCU3" Ids="JLdCUyK17KyOrRanJort7d,D221lL67eblOchesoE5TMA" />
       </Patch>
     </Node>
   </Patch>
